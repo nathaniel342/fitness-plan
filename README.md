@@ -1,5 +1,2 @@
 # fitness-plan
-public class Main {
-    public static void main(String[] args) {
-    System.out.println("Welcome to fitness147"); 
-    } 
+Our fitness plan project will create a simple fitness plan based on the users height, weight, and activity level. The fitness plan will also provide a small workout based on the user's input.
