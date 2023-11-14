@@ -1,7 +1,14 @@
-//Hello World
-// Hello
+import java.util.Scanner;
+
 public class Main {
-public static void main(String[] args) {
-System.out.println("Welcome to fitness-plan 147");
- }
-}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter name");
+        Scanner myObj = new Scanner(System.in);
+        String userName = myObj.nextLine();
+        System.out.println("Enter your kilograms: ");
+        double weight = scanner.nextDouble();
+
+        System.out.println("Enter your height in meters: ");
+        double height = scanner.nextDouble();
