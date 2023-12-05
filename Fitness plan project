@@ -1,1 +1,9 @@
-
+public class Main {
+    public static void main(String[] args) {
+        UserInputHandler userInputHandler = new UserInputHandler();
+        double weightInPounds = userInputHandler.getWeight();
+        double heightInInches = userInputHandler.getHeight();
+        char gender = userInputHandler.getGender();
+        String activityLevel = userInputHandler.getActivityLevel();
+}
+}
